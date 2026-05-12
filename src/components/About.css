@@ -1,0 +1,10 @@
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  color: var(--text-light);
+}
+
+.about-content p {
+  margin-bottom: 1.5rem;
+}

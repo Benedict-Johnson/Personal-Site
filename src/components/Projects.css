@@ -1,0 +1,57 @@
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.project-card {
+  background-color: var(--bg-main);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  color: inherit;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 86, 179, 0.1);
+  border-color: var(--primary-color);
+}
+
+.project-content {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.project-content h3 {
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+  font-size: 1.25rem;
+}
+
+.project-content p {
+  color: var(--text-light);
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tech-tag {
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+  padding: 0.25rem 0.75rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}

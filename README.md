@@ -1,16 +1,47 @@
-# React + Vite
+# Benedict Johnson - Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the source code of my personal portfolio website! This project is designed to showcase my skills, experience, projects, and publications as a Software Engineer specializing in Backend Systems, AI, and Scalable Infrastructure.
 
-Currently, two official plugins are available:
+## 🚀 Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **React.js**: For building interactive UI components.
+- **Vite**: For blazing fast front-end tooling and building.
+- **Vanilla CSS**: For custom, responsive styling with CSS variables and micro-animations, implementing a modern "Trust Blue" color palette.
 
-## React Compiler
+## 🌟 Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Responsive Design**: Fully functional and beautiful on mobile, tablet, and desktop screens.
+- **Hero Section**: A catchy introduction with a call-to-action to view my resume.
+- **Experience Timeline**: A clean, chronological display of my internships and work history.
+- **Projects Grid**: Detailed cards showcasing my GitHub projects with their descriptions and tech stacks.
+- **Publications**: Direct links to my published research on IEEE.
 
-## Expanding the ESLint configuration
+## 🛠️ Local Development
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To run this project locally on your machine:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Benedict-Johnson/Personal-Site.git
+   cd Personal-Site
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **View the app:**
+   Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+## 📈 Deployment
+
+This project is optimized for deployment on [Vercel](https://vercel.com/). Simply connect this repository to your Vercel account, and it will automatically build and deploy your site on every push to the `main` branch.
+
+---
+*Built with ❤️ by Benedict Johnson.*
